@@ -45,10 +45,8 @@ public class AutonomoTanque2Motores extends LinearOpMode {
             moveCM(100, 1.0); // anda 50 cm pra frente
             turnToAngle(30); // gira 180 graus
             moveCM(100, 0.5); // anda 30 cm pra trás
-            sleep(15000);
-            shooterVai(1);
-            intakeVai(1);
-
+           intakeVai (1);
+           moveCM(20, 1.0);
         }
     }
 
